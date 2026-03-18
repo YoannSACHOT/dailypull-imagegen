@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: dailypull-imagegen
+
+server:
+  port: 8090
+
+onemin:
+  api:
+    base-url: https://api.1min.ai
+    key: ${ONEMIN_API_KEY}
+
+imagegen:
+  output-dir: ${IMAGEGEN_OUTPUT_DIR:./generated-images}

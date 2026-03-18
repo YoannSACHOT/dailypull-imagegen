@@ -1,0 +1,6 @@
+onemin:
+  api:
+    key: YOUR_1MINAI_API_KEY_HERE
+
+imagegen:
+  output-dir: ./generated-images
